@@ -302,16 +302,13 @@ Data Format Example:
 ## 13. 🙏 Acknowledgments
 
    <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
-     • Built with
+     🏗️ Built with
    </a>
-   
-   	
-   <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
-      • Visualizations powered by
-   </a>
-   
+  
+
+  
    <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
-      • Data processing with
+      ☁️ Data Source
    </a>
 
 📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
