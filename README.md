@@ -302,7 +302,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 14. 🙏 Acknowledgments
 
-   •	Built with  **[Streamlit]((https://streamlit.io/))**
+   •	Built with  **[Streamlit](https://streamlit.io/)**
    
    •	Visualizations powered by **[Plotly](https://plotly.com/)**
    
