@@ -14,7 +14,7 @@ The template includes:
 
 ---
 
-## 1. Prerequisites
+## 1. 📦 Prerequisites
 
 You will need:
 
@@ -31,12 +31,12 @@ pip --version
 
 ---
 
-## 2. Get the project
+## 2. 🚀 Get the project
 
 ### Option A — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/streamlit-app-template.git
+git clone https://github.com/BigData-SRH/Garima-AI-app-template
 cd streamlit-app-template
 ```
 
@@ -48,7 +48,7 @@ cd streamlit-app-template
 
 ---
 
-## 3. Create a virtual environment (recommended)
+## 3. 🌱 Create a virtual environment (recommended)
 
 This isolates your project dependencies so they do not affect system-wide packages.
 
@@ -80,7 +80,7 @@ When activated, your terminal will show a prefix similar to:
 
 ---
 
-## 4. Install dependencies
+## 4. 🛠️ Install dependencies
 
 With the virtual environment activated:
 
@@ -93,7 +93,7 @@ This installs Streamlit, pandas, numpy, and any other required packages.
 
 ---
 
-## 5. Run the Streamlit app
+## 5. 📱 Run the Streamlit app
 
 Run the main entry file:
 
@@ -118,13 +118,12 @@ Use the sidebar navigation to switch between:
 
 ---
 
-## 6. Project Structure
+## 6. 📁 Project Structure
 
 ```text
 streamlit-app-template/
 ├─ app.py
 ├─ pages/
-│  ├─ 01_Overview.py
 │  ├─ 02_Data_Explorer.py
 │  └─ 03_About.py
 ├─ requirements.txt
@@ -150,7 +149,7 @@ streamlit-app-template/
 
 ---
 
-## 7. Adding New Pages
+## 7. 📄 Adding New Pages
 
 Streamlit automatically adds any `.py` file inside the `pages/` directory as a page.
 
@@ -182,7 +181,7 @@ The new page will appear in the sidebar.
 
 ---
 
-## 8. Updating Dependencies
+## 8. 🔃 Updating Dependencies
 
 If you install additional libraries, update the requirements file:
 
@@ -195,7 +194,7 @@ This ensures others can reproduce your environment.
 
 ---
 
-## 9. Deployment (Short Overview)
+## 9. 🖥️ Deployment (Short Overview)
 
 You can deploy this Streamlit app to:
 
@@ -215,7 +214,7 @@ is sufficient.
 
 ---
 
-## 10. Troubleshooting
+## 10. ⚙️ Troubleshooting
 
 ### Streamlit command not found  
 Your virtual environment may not be activated.
@@ -224,8 +223,13 @@ Your virtual environment may not be activated.
 Ensure the file exists at:
 
 ```
-data/example_data.csv
+(data/file_name.csv)
 ```
+
+<a href="https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025" target="_blank" rel="noopener noreferrer">
+  • Raw Dataset
+</a>
+
 
 ### Pages do not appear  
 The folder must be named exactly:
@@ -238,20 +242,113 @@ pages
 
 ---
 
-## 11. Using This Template for Student Projects
+## 11. 🎯 Overview
 
-You can:
+The AI Job Market Dashboard provides an intuitive interface to analyze 
+and explore historical job market data for AI and Data Science positions 
+from 2024-2025. It features advanced filtering capabilities, interactive 
+visualizations, and comprehensive data exploration tools.
 
-- Fork this repository  
-- Replace the example data with your own dataset  
-- Add new multipage views  
-- Build data dashboards or analysis tools  
-- Submit their Streamlit project as a reproducible environment  
+✨ Features:
 
-This ensures consistency across all student groups.
+   • 🎨 Modern UI: Gradient-styled interface with smooth animations and professional design
+   
+   • 🔍 Advanced Filtering: Multi-select filters for job titles, locations, experience levels, and remote work options
+   
+   • 📊 Interactive Visualizations: Plotly-powered charts with hover effects and dynamic coloring
+   
+   • 📈 Real-time Metrics: Live KPIs showing filtered results and dataset statistics
+   
+   • 💾 Data Export: Download filtered datasets as CSV files
+   
+   • 📱 Responsive Design: Wide layout optimized for desktop viewing
+   
+   • 🎯 Multiple Views: Four distinct pages for different analysis needs
 
 ---
 
-## 12. License
+## 12. 📊 Data Requirements
+Your CSV dataset should include the following columns (column names are flexible):
+Required Columns
 
-MIT License (or replace with your own license)
+   •	Job Title: job_title, title, jobTitle, or Job Title
+   
+   •	Location: country, company_location, location, or company_location_name
+   
+   •	Experience Level: experience_level, experience, years_experience, or exp_level
+   
+   •	Company: company_name, company, or employer
+   
+   •	Remote Status: remote_ratio, remote, remote_status, work_setting, or onsite_remote_hybrid
+
+Optional Columns
+
+•	Skills: required_skills, skills, requirements, or skillset
+
+•	Any additional columns for custom analysis
+
+
+Data Format Example: 
+   job_title,company_name,country,experience_level,remote_ratio
+   
+   Data Scientist,Tech Corp,Germany,MI,100
+   
+   AI Engineer,AI Labs,United States,SE,50
+   
+   ML Researcher,Research Inc,United Kingdom,EN,0
+
+---
+
+## 13. 🙏 Acknowledgments
+
+   <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
+     • Built with
+   </a>
+   
+   	
+   <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
+      • Visualizations powered by
+   </a>
+   
+   <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+      • Data processing with
+   </a>
+
+📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
+
+---
+
+## 14. 🔄 Version History
+v2.0.0 (Current)
+
+   •	Moved filters from sidebar to main page
+   
+   •	Enhanced UI with gradient styling
+   
+   •	Improved filter layout with 5-column design
+   
+   •	Added reset functionality
+
+v1.0.0
+
+   •	Initial release
+   
+   •	Sidebar-based filtering
+•	Four main dashboard pages
+•	Basic visualization and export features
+
+---
+
+## 15. 💯 Streamlit Production
+
+<a href="https://bigdata-srh-garima-ai-app-template-app-fo67tp.streamlit.app/" target="_blank" rel="noopener noreferrer">
+  Streamlit Dashboard
+</a>
+
+---
+
+## 16. © License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
