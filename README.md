@@ -226,7 +226,9 @@ Ensure the file exists at:
 (data/file_name.csv)
 ```
 
-**[Raw Dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)**
+<a href="https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025" target="_blank" rel="noopener noreferrer">
+  • Raw Dataset
+</a>
 
 
 ### Pages do not appear  
@@ -299,11 +301,18 @@ Data Format Example:
 
 ## 13. 🙏 Acknowledgments
 
-   •	Built with  **[Streamlit](https://streamlit.io/)**
+   <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
+     • Built with
+   </a>
    
-   •	Visualizations powered by **[Plotly](https://plotly.com/)**
+   	
+   <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
+      • Visualizations powered by
+   </a>
    
-   •	Data processing with **[Pandas](https://pandas.pydata.org/)**
+   <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+      • Data processing with
+   </a>
 
 📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
 
@@ -331,7 +340,10 @@ v1.0.0
 ---
 
 ## 15. 💯 Streamlit Production
-**[Streamlit Dashboard](https://bigdata-srh-garima-ai-app-template-app-fo67tp.streamlit.app/)**
+
+<a href="https://bigdata-srh-garima-ai-app-template-app-fo67tp.streamlit.app/" target="_blank" rel="noopener noreferrer">
+  Streamlit Dashboard
+</a>
 
 ---
 
