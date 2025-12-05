@@ -304,10 +304,10 @@ Data Format Example:
    <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
      🏗️ Built with
    </a>
-  
 
-  
-   <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+   ,
+   
+   <a href="https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025" target="_blank" rel="noopener noreferrer">
       ☁️ Data Source
    </a>
 
