@@ -336,7 +336,7 @@ with ack_col1:
 with ack_col2:
     st.markdown("""
     **☁️ Data Source:**
-    - [Data Source](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
+    - [Data Source](https://www.kaggle.com/datasets/abhishekjaiswal4896/ai-job-market-trends)
     """)
     
 st.markdown("</div>", unsafe_allow_html=True)

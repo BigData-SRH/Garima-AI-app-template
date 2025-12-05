@@ -226,7 +226,7 @@ Ensure the file exists at:
 (data/file_name.csv)
 ```
 
-<a href="https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025" target="_blank" rel="noopener noreferrer">
+<a href="https://www.kaggle.com/datasets/abhishekjaiswal4896/ai-job-market-trends" target="_blank" rel="noopener noreferrer">
   • Raw Dataset
 </a>
 

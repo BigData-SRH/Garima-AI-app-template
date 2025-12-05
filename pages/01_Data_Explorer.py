@@ -48,7 +48,7 @@ st.markdown(
     """
     <div>
         <p style='font-size: 20px; margin-top: 12px;'>
-            © <a href='https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025'
+            © <a href='https://www.kaggle.com/datasets/abhishekjaiswal4896/ai-job-market-trends'
                  target='_blank'
                  style='color: Black; text-decoration: none;'>
                  Raw Dataset Source
