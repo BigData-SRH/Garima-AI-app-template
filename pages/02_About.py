@@ -347,6 +347,6 @@ st.markdown("""
 <div style='text-align: center; color: #6b7785; padding: 20px;'>
     <p style='font-size: 16px;'>🤖 <strong>AI Job Market Dashboard</strong></p>
     <p style='font-size: 14px;'>Historical data from 2024-2025 | Made with ❤️ for the AI/Data Science community</p>
-    <p style='font-size: 12px; margin-top: 12px;'>© 2024 Garima Agrawal | MSc Big Data & AI</p>
+    <p style='font-size: 12px; margin-top: 12px;'>© 2025 Garima Agrawal | MSc Big Data & AI</p>
 </div>
 """, unsafe_allow_html=True)
