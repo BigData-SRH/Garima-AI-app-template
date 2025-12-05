@@ -36,7 +36,7 @@ pip --version
 ### Option A — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/streamlit-app-template.git
+git clone https://github.com/BigData-SRH/Garima-AI-app-template
 cd streamlit-app-template
 ```
 
