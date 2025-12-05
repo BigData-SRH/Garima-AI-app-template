@@ -239,34 +239,58 @@ pages
 
 ## 11. 🎯 Overview
 
-The AI Job Market Dashboard provides an intuitive interface to analyze and explore historical job market data for AI and Data Science positions from 2024-2025. It features advanced filtering capabilities, interactive visualizations, and comprehensive data exploration tools.
-✨ Features
-•	🎨 Modern UI: Gradient-styled interface with smooth animations and professional design
-•	🔍 Advanced Filtering: Multi-select filters for job titles, locations, experience levels, and remote work options
-•	📊 Interactive Visualizations: Plotly-powered charts with hover effects and dynamic coloring
-•	📈 Real-time Metrics: Live KPIs showing filtered results and dataset statistics
-•	💾 Data Export: Download filtered datasets as CSV files
-•	📱 Responsive Design: Wide layout optimized for desktop viewing
-•	🎯 Multiple Views: Four distinct pages for different analysis needs
+The AI Job Market Dashboard provides an intuitive interface to analyze 
+and explore historical job market data for AI and Data Science positions 
+from 2024-2025. It features advanced filtering capabilities, interactive 
+visualizations, and comprehensive data exploration tools.
+
+✨ Features:
+
+   • 🎨 Modern UI: Gradient-styled interface with smooth animations and professional design
+   
+   • 🔍 Advanced Filtering: Multi-select filters for job titles, locations, experience levels, and remote work options
+   
+   • 📊 Interactive Visualizations: Plotly-powered charts with hover effects and dynamic coloring
+   
+   • 📈 Real-time Metrics: Live KPIs showing filtered results and dataset statistics
+   
+   • 💾 Data Export: Download filtered datasets as CSV files
+   
+   • 📱 Responsive Design: Wide layout optimized for desktop viewing
+   
+   • 🎯 Multiple Views: Four distinct pages for different analysis needs
 
 ---
 
 ## 12. 📊 Data Requirements
 Your CSV dataset should include the following columns (column names are flexible):
 Required Columns
-•	Job Title: job_title, title, jobTitle, or Job Title
-•	Location: country, company_location, location, or company_location_name
-•	Experience Level: experience_level, experience, years_experience, or exp_level
-•	Company: company_name, company, or employer
-•	Remote Status: remote_ratio, remote, remote_status, work_setting, or onsite_remote_hybrid
+
+   •	Job Title: job_title, title, jobTitle, or Job Title
+   
+   •	Location: country, company_location, location, or company_location_name
+   
+   •	Experience Level: experience_level, experience, years_experience, or exp_level
+   
+   •	Company: company_name, company, or employer
+   
+   •	Remote Status: remote_ratio, remote, remote_status, work_setting, or onsite_remote_hybrid
+
 Optional Columns
+
 •	Skills: required_skills, skills, requirements, or skillset
+
 •	Any additional columns for custom analysis
-Data Format Example
-job_title,company_name,country,experience_level,remote_ratio
-Data Scientist,Tech Corp,Germany,MI,100
-AI Engineer,AI Labs,United States,SE,50
-ML Researcher,Research Inc,United Kingdom,EN,0
+
+
+Data Format Example: 
+   job_title,company_name,country,experience_level,remote_ratio
+   
+   Data Scientist,Tech Corp,Germany,MI,100
+   
+   AI Engineer,AI Labs,United States,SE,50
+   
+   ML Researcher,Research Inc,United Kingdom,EN,0
 
 ---
 
@@ -277,22 +301,32 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 ## 14. 🙏 Acknowledgments
-•	Built with Streamlit
-•	Visualizations powered by Plotly
-•	Data processing with Pandas
-📧 Contact
-For questions or feedback, please open an issue on GitHub or contact the maintainer.
+
+   •	Built with Streamlit
+   
+   •	Visualizations powered by Plotly
+   
+   •	Data processing with Pandas
+
+📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
 
 ---
 
 ## 15. 🔄 Version History
 v2.0.0 (Current)
-•	Moved filters from sidebar to main page
-•	Enhanced UI with gradient styling
-•	Improved filter layout with 5-column design
-•	Added reset functionality
+
+   •	Moved filters from sidebar to main page
+   
+   •	Enhanced UI with gradient styling
+   
+   •	Improved filter layout with 5-column design
+   
+   •	Added reset functionality
+
 v1.0.0
-•	Initial release
-•	Sidebar-based filtering
+
+   •	Initial release
+   
+   •	Sidebar-based filtering
 •	Four main dashboard pages
 •	Basic visualization and export features
