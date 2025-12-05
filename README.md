@@ -48,7 +48,7 @@ cd streamlit-app-template
 
 ---
 
-## 3. Create a virtual environment (recommended)
+## 3. 🌱 Create a virtual environment (recommended)
 
 This isolates your project dependencies so they do not affect system-wide packages.
 
@@ -80,7 +80,7 @@ When activated, your terminal will show a prefix similar to:
 
 ---
 
-## 4. Install dependencies
+## 4. 🛠️ Install dependencies
 
 With the virtual environment activated:
 
@@ -93,7 +93,7 @@ This installs Streamlit, pandas, numpy, and any other required packages.
 
 ---
 
-## 5. Run the Streamlit app
+## 5. 📱 Run the Streamlit app
 
 Run the main entry file:
 
@@ -149,7 +149,7 @@ streamlit-app-template/
 
 ---
 
-## 7. Adding New Pages
+## 7. 📄 Adding New Pages
 
 Streamlit automatically adds any `.py` file inside the `pages/` directory as a page.
 
@@ -181,7 +181,7 @@ The new page will appear in the sidebar.
 
 ---
 
-## 8. Updating Dependencies
+## 8. 🔃 Updating Dependencies
 
 If you install additional libraries, update the requirements file:
 
@@ -194,7 +194,7 @@ This ensures others can reproduce your environment.
 
 ---
 
-## 9. Deployment (Short Overview)
+## 9. 🖥️ Deployment (Short Overview)
 
 You can deploy this Streamlit app to:
 
@@ -214,7 +214,7 @@ is sufficient.
 
 ---
 
-## 10. Troubleshooting
+## 10. ⚙️ Troubleshooting
 
 ### Streamlit command not found  
 Your virtual environment may not be activated.
@@ -249,9 +249,50 @@ The AI Job Market Dashboard provides an intuitive interface to analyze and explo
 •	📱 Responsive Design: Wide layout optimized for desktop viewing
 •	🎯 Multiple Views: Four distinct pages for different analysis needs
 
+---
+
+## 12. 📊 Data Requirements
+Your CSV dataset should include the following columns (column names are flexible):
+Required Columns
+•	Job Title: job_title, title, jobTitle, or Job Title
+•	Location: country, company_location, location, or company_location_name
+•	Experience Level: experience_level, experience, years_experience, or exp_level
+•	Company: company_name, company, or employer
+•	Remote Status: remote_ratio, remote, remote_status, work_setting, or onsite_remote_hybrid
+Optional Columns
+•	Skills: required_skills, skills, requirements, or skillset
+•	Any additional columns for custom analysis
+Data Format Example
+job_title,company_name,country,experience_level,remote_ratio
+Data Scientist,Tech Corp,Germany,MI,100
+AI Engineer,AI Labs,United States,SE,50
+ML Researcher,Research Inc,United Kingdom,EN,0
 
 ---
 
-## 12. License
+## 13. © License
 
-MIT License (or replace with your own license)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 14. 🙏 Acknowledgments
+•	Built with Streamlit
+•	Visualizations powered by Plotly
+•	Data processing with Pandas
+📧 Contact
+For questions or feedback, please open an issue on GitHub or contact the maintainer.
+
+---
+
+## 15. 🔄 Version History
+v2.0.0 (Current)
+•	Moved filters from sidebar to main page
+•	Enhanced UI with gradient styling
+•	Improved filter layout with 5-column design
+•	Added reset functionality
+v1.0.0
+•	Initial release
+•	Sidebar-based filtering
+•	Four main dashboard pages
+•	Basic visualization and export features
