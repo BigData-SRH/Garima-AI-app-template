@@ -222,6 +222,9 @@ Your virtual environment may not be activated.
 ### Example dataset not found  
 Ensure the file exists at:
 
+```
+(data/file_name.csv)
+```
 
 **[Raw Dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)**
 
