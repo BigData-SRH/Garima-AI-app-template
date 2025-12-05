@@ -14,7 +14,7 @@ The template includes:
 
 ---
 
-## 1. Prerequisites
+## 1. 📦 Prerequisites
 
 You will need:
 
@@ -31,7 +31,7 @@ pip --version
 
 ---
 
-## 2. Get the project
+## 2. 🚀 Get the project
 
 ### Option A — Clone the repository
 
@@ -118,13 +118,12 @@ Use the sidebar navigation to switch between:
 
 ---
 
-## 6. Project Structure
+## 6. 📁 Project Structure
 
 ```text
 streamlit-app-template/
 ├─ app.py
 ├─ pages/
-│  ├─ 01_Overview.py
 │  ├─ 02_Data_Explorer.py
 │  └─ 03_About.py
 ├─ requirements.txt
@@ -224,7 +223,7 @@ Your virtual environment may not be activated.
 Ensure the file exists at:
 
 ```
-data/example_data.csv
+[data/example_data.csv](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
 ```
 
 ### Pages do not appear  
@@ -238,17 +237,18 @@ pages
 
 ---
 
-## 11. Using This Template for Student Projects
+## 11. 🎯 Overview
 
-You can:
+The AI Job Market Dashboard provides an intuitive interface to analyze and explore historical job market data for AI and Data Science positions from 2024-2025. It features advanced filtering capabilities, interactive visualizations, and comprehensive data exploration tools.
+✨ Features
+•	🎨 Modern UI: Gradient-styled interface with smooth animations and professional design
+•	🔍 Advanced Filtering: Multi-select filters for job titles, locations, experience levels, and remote work options
+•	📊 Interactive Visualizations: Plotly-powered charts with hover effects and dynamic coloring
+•	📈 Real-time Metrics: Live KPIs showing filtered results and dataset statistics
+•	💾 Data Export: Download filtered datasets as CSV files
+•	📱 Responsive Design: Wide layout optimized for desktop viewing
+•	🎯 Multiple Views: Four distinct pages for different analysis needs
 
-- Fork this repository  
-- Replace the example data with your own dataset  
-- Add new multipage views  
-- Build data dashboards or analysis tools  
-- Submit their Streamlit project as a reproducible environment  
-
-This ensures consistency across all student groups.
 
 ---
 
