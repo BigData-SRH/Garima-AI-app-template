@@ -302,11 +302,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 14. 🙏 Acknowledgments
 
-   •	Built with Streamlit
+   •	Built with  **[Streamlit]((https://streamlit.io/))**
    
-   •	Visualizations powered by Plotly
+   •	Visualizations powered by **[Plotly](https://plotly.com/)**
    
-   •	Data processing with Pandas
+   •	Data processing with **[Pandas](https://pandas.pydata.org/)**
 
 📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
 
