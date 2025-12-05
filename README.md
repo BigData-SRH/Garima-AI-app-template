@@ -297,13 +297,7 @@ Data Format Example:
 
 ---
 
-## 13. © License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 14. 🙏 Acknowledgments
+## 13. 🙏 Acknowledgments
 
    •	Built with  **[Streamlit](https://streamlit.io/)**
    
@@ -315,7 +309,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 15. 🔄 Version History
+## 14. 🔄 Version History
 v2.0.0 (Current)
 
    •	Moved filters from sidebar to main page
@@ -333,3 +327,10 @@ v1.0.0
    •	Sidebar-based filtering
 •	Four main dashboard pages
 •	Basic visualization and export features
+
+---
+## 15. © License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
